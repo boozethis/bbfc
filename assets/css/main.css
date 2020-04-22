@@ -434,7 +434,7 @@ input, select, textarea {
 			text-transform: none !important;
 			color: #e5e6e7;
 			content: '\f1ce';
-			cursor: default;
+			cursor: wowhand.cur;
 			display: block;
 			font-size: 2em;
 			height: 2em;
@@ -660,7 +660,7 @@ input, select, textarea {
 		border: 0;
 		border-radius: 3.5em;
 		color: #ffffff;
-		cursor: pointer;
+		cursor: wowhand.cur;
 		display: inline-block;
 		height: 3.5em;
 		line-height: 3.5em;
@@ -1005,7 +1005,7 @@ input, select, textarea {
 		}
 
 	ul.menu {
-		cursor: default;
+		cursor: wowhand.cur;
 	}
 
 		ul.menu li {
@@ -1038,7 +1038,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		cursor: default;
+		cursor: wowhand.cur;
 		list-style: none;
 		margin-left: -1em;
 		padding-left: 0;
@@ -1156,7 +1156,7 @@ input, select, textarea {
 /* Icons */
 
 	ul.icons {
-		cursor: default;
+		cursor: wowhand.cur;
 	}
 
 		ul.icons li {
@@ -1257,7 +1257,7 @@ input, select, textarea {
 				text-transform: none !important;
 				color: #e5e6e7;
 				content: '\f1ce';
-				cursor: default;
+				cursor: wowhand.cur;
 				display: block;
 				height: 2em;
 				left: 0;
@@ -1277,7 +1277,7 @@ input, select, textarea {
 			height: 3em;
 			line-height: 2.8em;
 			text-align: center;
-			cursor: default;
+			cursor: wowhand.cur;
 			z-index: 1;
 			font-size: 0.9em;
 		}
@@ -1293,7 +1293,7 @@ input, select, textarea {
 			width: 50%;
 			height: 100%;
 			opacity: 0;
-			cursor: pointer;
+			cursor: wowhand.cur;
 			background: rgba(0, 0, 0, 0.01);
 			-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 		}
@@ -2200,4 +2200,11 @@ input, select, textarea {
   width: 100%;
   max-width: 600px;
   height: auto;
+}
+
+html {
+  cursor: url('wowhand.cur'), default;
+}
+body {
+	cursor: url('wowhand.cur'), default;
 }
